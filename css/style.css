@@ -1,0 +1,222 @@
+/* style.css for glassfaucet.com */
+
+/* ---------------
+global css
+--------------- */
+
+body {
+    background: url(../images/background.jpg);
+	margin: 0;
+	padding: 0;
+	font: 85% Arial, Hevetica, sans-serif;
+	text-align: center;
+	color: #2d3338;
+    background-position:center top;
+    background-repeat:no-repeat
+}
+
+a:link,
+a:visited { 
+    color: #2d3338; 
+}
+
+a:hover,
+a:active { 
+    color: #c5d6e2; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #c5d6e2; 
+    margin: 0 0 3px; 
+}
+
+h2 {
+	font: 140%;
+    font-weight: normal;
+}
+
+h3 {
+	font: 110%;
+}
+
+/* IE adjustment */
+a img {
+    border: 0;
+}
+
+/* ---------------
+container
+--------------- */
+
+#container {
+	margin: 0 auto; 
+    margin-top: 1px;
+	width: 1024px; /*browser and iPad landscape */
+    height: 100%;
+	text-align: justify;
+	background: transparent;
+}
+
+
+
+/* ---------------
+header
+--------------- */
+header {
+    padding-bottom: 0px;
+    overflow: hidden;
+    background-repeat: no-repeat;  
+    margin-left: 65px;
+    margin-bottom: 0; 
+    position: relative;
+    bottom: -6px;
+}
+
+/* ---------------
+nav
+--------------- */
+
+nav {
+    font-size: 15px;
+	color: #2d3338;
+	padding-bottom: 30px;
+    margin: 0;
+}
+
+nav ul {
+	padding: 0;
+    padding-left: 70px;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	padding-right: 20px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #2d3338;
+}
+
+nav li a:hover {
+    color: #fff;
+}
+
+nav li #youarehere {
+	text-decoration: none;
+	color: #c5d6e2;
+}
+
+/* ---------------
+right column
+--------------- */
+
+#r_content {
+	float: right; 
+    line-height: 20px;
+	width: 320px;
+    padding-right: 100px;
+	padding-left: 0;
+}
+
+#r_content h2 {
+    font-size: 170%;
+}
+
+#r_content a { 
+    color: #c5d6e2;
+    text-decoration: none; 
+    display: block;
+    margin-top: 10px;
+}
+
+#r_content #gallery_text a {
+    display: inline;
+}
+
+/* ---------------
+left column 
+--------------- */
+
+#l_content {
+	width: 480px;
+	margin: 0 0 0 0px;
+    padding-left: 70px;
+    line-height: 19px;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#l_content .content_text h1 {
+    font-weight: normal;
+}
+
+#l_content a { 
+    color: #c5d6e2;
+    text-decoration: none; 
+} 
+
+/* text within image */
+#l_content #image {
+    background-image: url(../images/faucet_bowl.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 130%;
+    height: 350px;
+    line-height: 140%;
+    padding: 20px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+/* h2 within image */
+#l_content #image h2 { 
+    color: #fff;
+    font-size: 190%;
+    font-weight: normal;
+}
+
+/* h3 within image */
+#l_content #image h3 { 
+    color: #fff;
+    font-weight: normal;
+}
+
+/* fancybox */
+.fancybox img {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/* fancybox */
+#gallery {
+    width: 500px; 
+    text-align: left;
+}
+
+/* ---------------
+footer
+--------------- */
+
+footer {
+	clear: both;
+	color: #444f58;
+	text-align: left;
+	font-size: 90%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-left: 70px;
+}
+
+footer p {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer a {
+    text-decoration: none;
+}
